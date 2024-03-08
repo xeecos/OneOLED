@@ -1,10 +1,10 @@
 #pragma once
 
-#define BUZZER  1
-#define KEY     3
+#define PIN_BUZZER  1
+#define PIN_KEY     3
 
-#define D0      4
-#define D1      5
-#define RES     6
-#define DC      7
-#define CS      8
+#define PIN_D0      4
+#define PIN_D1      5
+#define PIN_RES     6
+#define PIN_DC      7
+#define PIN_CS      8

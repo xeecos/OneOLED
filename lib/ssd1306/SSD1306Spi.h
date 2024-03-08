@@ -49,7 +49,7 @@ class SSD1306Spi : public OLEDDisplay {
         this->_rst = _rst;
         this->_dc  = _dc;
         this->_cs  = _cs;
-        _spi.setup(D0, -1, D1);
+        _spi.setup(PIN_D0, -1, PIN_D1);
     }
 
     bool connect(){
